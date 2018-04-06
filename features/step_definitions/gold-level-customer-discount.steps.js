@@ -10,10 +10,10 @@ defineSupportCode(function(context) {
   var registerHandler = context.registerHandler;
   var customer;
   Given('I have a gold level customer', function () {
-    customer = new Customer(true);
+    return 'pending';
   });
  When('their shopping cart totals ${int} or more', function(int) {
-   customer.addToCart({name: "widget", price: int});
+  return 'pending';
  });
  Then('they should receive a {int}% discount off the total price', function(discount) {
   return 'pending';
