@@ -1,0 +1,24 @@
+{
+  "name": "codecamptalk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deewhyweb/codeCampTalk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deewhyweb/codeCampTalk/issues"
+  },
+  "homepage": "https://github.com/deewhyweb/codeCampTalk#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "cucumber": "^3.1.0",
+    "cucumber-html-reporter": "^4.0.2"
+  }
+}
