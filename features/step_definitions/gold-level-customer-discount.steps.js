@@ -12,9 +12,6 @@ defineSupportCode(function(context) {
   Given('I have a gold level customer', function () {
     customer = new Customer(true);
   });
-  Given('I have a normal level customer', function () {
-    customer = new Customer(false);
-  });
  When('their shopping cart totals ${int} or more', function(int) {
    customer.addToCart({name: "widget", price: int});
  });

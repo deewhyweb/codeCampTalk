@@ -25,7 +25,8 @@
               "location": "features/step_definitions/gold-level-customer-discount.steps.js:12"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1
             }
           },
           {
@@ -34,10 +35,11 @@
             "line": 8,
             "name": "their shopping cart totals $50 or more",
             "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:18"
+              "location": "features/step_definitions/gold-level-customer-discount.steps.js:15"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1
             }
           },
           {
@@ -46,7 +48,7 @@
             "line": 9,
             "name": "they should receive a 15% discount off the total price",
             "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:21"
+              "location": "features/step_definitions/gold-level-customer-discount.steps.js:18"
             },
             "result": {
               "status": "passed"
@@ -55,10 +57,10 @@
         ]
       },
       {
-        "id": "gold-level-customer-receives-15%-discount-on-orders-over-$40;gold-level-customer-with-$200-in-cart",
+        "id": "gold-level-customer-receives-15%-discount-on-orders-over-$40;gold-level-customer-with-$30-in-cart",
         "keyword": "Scenario",
         "line": 11,
-        "name": "Gold level customer with $200 in cart",
+        "name": "Gold level customer with $30 in cart",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -71,95 +73,14 @@
               "location": "features/step_definitions/gold-level-customer-discount.steps.js:12"
             },
             "result": {
-              "status": "passed",
-              "duration": 1
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 13,
-            "name": "their shopping cart totals $200 or more",
-            "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:18"
-            },
-            "result": {
-              "status": "passed"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 14,
-            "name": "they should receive a 15% discount off the total price",
-            "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:21"
-            },
-            "result": {
-              "status": "passed"
-            }
-          }
-        ]
-      },
-      {
-        "id": "gold-level-customer-receives-15%-discount-on-orders-over-$40;gold-level-customer-with-$30-in-cart",
-        "keyword": "Scenario",
-        "line": 16,
-        "name": "Gold level customer with $30 in cart",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 17,
-            "name": "I have a gold level customer",
-            "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:12"
-            },
-            "result": {
-              "status": "passed"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 18,
             "name": "their shopping cart totals $30 or more",
-            "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:18"
-            },
-            "result": {
-              "status": "passed"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 19,
-            "name": "they should not receive a 15% discount off the total price",
-            "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:26"
-            },
-            "result": {
-              "status": "passed"
-            }
-          }
-        ]
-      },
-      {
-        "id": "gold-level-customer-receives-15%-discount-on-orders-over-$40;normal-level-customer-with-$50-in-cart",
-        "keyword": "Scenario",
-        "line": 21,
-        "name": "Normal level customer with $50 in cart",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 22,
-            "name": "I have a normal level customer",
             "match": {
               "location": "features/step_definitions/gold-level-customer-discount.steps.js:15"
             },
@@ -169,27 +90,14 @@
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "line": 23,
-            "name": "their shopping cart totals $50 or more",
+            "keyword": "Then ",
+            "line": 14,
+            "name": "they should not receive a 15% discount off the total price",
             "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:18"
+              "location": "features/step_definitions/gold-level-customer-discount.steps.js:23"
             },
             "result": {
               "status": "passed"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 24,
-            "name": "they should not receive a 15% discount off the total price",
-            "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1
             }
           }
         ]
