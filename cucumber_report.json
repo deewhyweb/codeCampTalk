@@ -21,11 +21,8 @@
             "keyword": "Given ",
             "line": 7,
             "name": "I have a gold level customer",
-            "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:12"
-            },
             "result": {
-              "status": "pending"
+              "status": "undefined"
             }
           },
           {
@@ -33,11 +30,8 @@
             "keyword": "When ",
             "line": 8,
             "name": "their shopping cart totals $50 or more",
-            "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:15"
-            },
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             }
           },
           {
@@ -45,11 +39,8 @@
             "keyword": "Then ",
             "line": 9,
             "name": "they should receive a 15% discount off the total price",
-            "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:18"
-            },
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             }
           }
         ]
@@ -67,11 +58,8 @@
             "keyword": "Given ",
             "line": 12,
             "name": "I have a gold level customer",
-            "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:12"
-            },
             "result": {
-              "status": "pending"
+              "status": "undefined"
             }
           },
           {
@@ -79,11 +67,8 @@
             "keyword": "When ",
             "line": 13,
             "name": "their shopping cart totals $30 or more",
-            "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:15"
-            },
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             }
           },
           {
@@ -91,11 +76,8 @@
             "keyword": "Then ",
             "line": 14,
             "name": "they should not receive a 15% discount off the total price",
-            "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:21"
-            },
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             }
           }
         ]
