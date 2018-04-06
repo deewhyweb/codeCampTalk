@@ -16,12 +16,9 @@ defineSupportCode(function(context) {
    customer.addToCart({name: "widget", price: int});
  });
  Then('they should receive a {int}% discount off the total price', function(discount) {
-  let cartTotal = customer.cartTotal();
-  let expectedPrice = (cartTotal.subTotal / 100) * (100 - discount);
-  assert.equal(cartTotal.total, expectedPrice );
+  return 'pending';
  });
  Then('they should not receive a {int}% discount off the total price', function(discount) {
-  let cartTotal = customer.cartTotal();
-  assert.equal(cartTotal.total, cartTotal.subTotal);
+  return 'pending';
  });
 });

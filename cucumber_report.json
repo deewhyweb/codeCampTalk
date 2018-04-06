@@ -38,8 +38,7 @@
               "location": "features/step_definitions/gold-level-customer-discount.steps.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 1
+              "status": "passed"
             }
           },
           {
@@ -51,7 +50,7 @@
               "location": "features/step_definitions/gold-level-customer-discount.steps.js:18"
             },
             "result": {
-              "status": "passed"
+              "status": "pending"
             }
           }
         ]
@@ -94,10 +93,10 @@
             "line": 14,
             "name": "they should not receive a 15% discount off the total price",
             "match": {
-              "location": "features/step_definitions/gold-level-customer-discount.steps.js:23"
+              "location": "features/step_definitions/gold-level-customer-discount.steps.js:21"
             },
             "result": {
-              "status": "passed"
+              "status": "pending"
             }
           }
         ]
